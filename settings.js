@@ -208,8 +208,8 @@ module.exports = {
     //    context.global.os
 
     functionGlobalContext: {
-       // crypto:require('crypto'),
-	     moment:require('moment')
+          crypto:require('crypto')
+	     //moment:require('moment')
         // octalbonescript:require('octalbonescript'),
         // jfive:require("johnny-five"),
         // j5board:require("johnny-five").Board({repl:false})
