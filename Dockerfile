@@ -15,6 +15,8 @@ RUN adduser -h /usr/src/node-red -D -H node-red \
 
 USER node-red
 
+COPY settings.js /data/
+
 # package.json contains Node-RED NPM module and node dependencies
 COPY package.json /usr/src/node-red/
 RUN npm install
